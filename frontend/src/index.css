@@ -1,0 +1,211 @@
+body {
+  margin: 0 30px;
+  background: #f1f1f1; 
+  padding-top: 55px;
+}
+section{
+  padding: 3rem 0;
+  @media (max-width: 800px) {
+    padding-top: 6.5rem;
+  }
+}
+.App {
+  font-size: 1.2em;
+  width: 100%; 
+  max-width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+  @media (max-width: 500px) {
+    padding: 0;
+  }
+}
+h1, h2, h3, h4, ul{
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  
+}
+.movies__categories, .movies__actors{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+h1, h2{
+  margin-bottom: 32px;
+  font-size: 65px;
+  text-align: center;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: calc(100% - 80px);
+  padding: 0 40px;
+  gap: 16px;
+  @media (max-width: 800px) {
+    gap: 0;
+  }
+}
+
+.header__logo{
+  a{
+    text-decoration: none;
+    font-size: 36px;
+    color: #000;
+    @media (max-width: 800px) {
+      font-size: 26px;
+    }
+  }
+}
+.nav{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  flex-wrap: wrap;
+
+  li{
+    
+      a{
+        text-decoration: none;
+        color: #000;
+        position: relative;
+        overflow: hidden;
+        padding: 1rem 1rem;
+        display: block;
+        @media (max-width: 1200px) {
+          padding: 0.5rem 0.5rem;
+        }
+
+        &::before{
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translate(-50%, 10px);
+          width: 50px;
+          height: 2px;
+          background-color: #000;
+          transition: transform 250ms ease-in-out;
+        }
+        &:hover{
+          &::before{
+             transform: translate(-50%, -5px);
+          }
+        }
+      }
+
+  }
+}
+
+.movies__list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
+}
+.movies__thumbnail{
+  width: 100%;
+  height: 300px;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.movies__thumbnail-no{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+
+}
+.movies__item{
+  text-decoration: none;
+  color: #000;
+}
+.movies__item-content{
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #000;
+  padding: 20px 0;
+}
+.footer__col{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  
+  &.--second{
+    flex-direction: row;
+  }
+
+  a{
+    color: #000;
+  }
+}
+
+.footer__link{
+  display: flex;
+  gap: 8px;
+}
+.movie__intro{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 140px;
+}
+.movie__content{
+  h1{
+    text-align: left;
+    margin-bottom: 8px;
+  }
+}
+.movie__year{
+  margin-bottom: 32px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.movie__description{
+  line-height: 1.6;
+}
+.movie__bottom{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.documentation{
+  h1, h2{
+    text-align: left;
+    margin-bottom: 12px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  pre{
+    font-size: 15px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    background-color: #eee;
+    padding: 8px 12px;
+  }
+}
