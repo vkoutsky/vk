@@ -18,7 +18,7 @@ Strapi is completely written in Typescript, therefore all types are already bund
 To install GraphQL API to your project run command
 
 ```
-npm run strapi install graphql
+npm run strapi install graphql 
 ```
 To install Apollo Client to your project run command
 
