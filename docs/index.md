@@ -1,12 +1,6 @@
-
-
-
-
 # VK
 
 This is a sample project to demonstrate the interworking of GraphQL and Headless CMS
-
-[Link to documentation](https://vkoutsky.github.io/vk/)
 
 ## First Steps
 ### Installation Strapi
