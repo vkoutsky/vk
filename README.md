@@ -1,5 +1,6 @@
 <h1>VK</h1>
 <p>This is a sample project to demonstrate the interworking of GraphQL and Headless CMS</p>
+<a href="https://vkoutsky.github.io/vk/">Link to documentation</a>
 
 <h2>First Steps</h2> 
 <h3>Installation Strapi</h3>
