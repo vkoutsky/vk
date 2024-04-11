@@ -1,6 +1,4 @@
-# VK
-
-## Components
+# Components
 This project provides components for
 * [Movies](#movies)
 * [Movie](#movie)

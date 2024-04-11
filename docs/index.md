@@ -1,6 +1,4 @@
-# VK
-
-This is a sample project to demonstrate the interworking of GraphQL and Headless CMS. 
+This is a sample project to demonstrate the interworking of GraphQL and Headless CMS.
 
 ## Motivation
 

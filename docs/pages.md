@@ -1,6 +1,4 @@
-# VK
-
-## Pages
+# Pages
 
 * [Movies](#movies)
 * [Movie detail](#movie-detail)
