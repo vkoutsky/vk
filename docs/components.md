@@ -1,4 +1,9 @@
-# Components
+---
+layout: page
+title: Components
+permalink: /components/
+---
+
 This project provides components for
 * [Movies](#movies)
 * [Movie](#movie)

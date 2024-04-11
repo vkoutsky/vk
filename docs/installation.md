@@ -1,4 +1,9 @@
-# Instalation
+---
+layout: page
+title: Installation
+permalink: /installation/
+---
+
 ## Installation Strapi
 
 To install Strapi to your project run command
@@ -47,3 +52,5 @@ http://localhost:1337/graphql
 ```
 
 [Components](https://vkoutsky.github.io/vk/components)
+
+

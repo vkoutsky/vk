@@ -1,4 +1,8 @@
-# Pages
+---
+layout: page
+title: Pages
+permalink: /pages/
+---
 
 * [Movies](#movies)
 * [Movie detail](#movie-detail)

@@ -1,3 +1,6 @@
+---
+layout: home
+---
 This is a sample project to demonstrate the interworking of GraphQL and Headless CMS.
 
 ## Motivation
@@ -29,4 +32,4 @@ The biggest advantage of the combination of Headless architecture and GraphQL te
 * Faster development and iteration
 
 
-[Instalation](https://vkoutsky.github.io/vk/instalation)
+[Instalation](https://vkoutsky.github.io/vk/installation)
