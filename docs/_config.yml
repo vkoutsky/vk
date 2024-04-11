@@ -23,6 +23,7 @@ url: "https://vkoutsky.github.io/" # the base hostname & protocol for your site,
 github_username:  vkoutsky
 header_pages:
   - installation.md
+  - queries.md
   - components.md
   - pages.md
 # Build settings

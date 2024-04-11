@@ -9,6 +9,7 @@ permalink: /pages/
 * [Category](#category)
 
 ## Movies
+This page shows all movies in list
 
 ```
 import React from "react";
@@ -39,6 +40,7 @@ const Home = () => {
 export default Home;
 ```
 ## Movie detail
+This page shows one movie
 
 ```
 import React from "react";
@@ -96,6 +98,7 @@ const Movie = () => {
 export default Movie;
 ```
 ## Category
+This page shows all movies in chosen category
 
 ```
 import React from "react";

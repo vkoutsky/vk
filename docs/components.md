@@ -7,9 +7,10 @@ permalink: /components/
 This project provides components for
 * [Movies](#movies)
 * [Movie](#movie)
-* [Query](#query)
 
 ## Movies
+This component provides all movies
+
 ```
 import React from "react";
 import Movie from "./Movie";
@@ -33,6 +34,8 @@ export default Movies;
 ```
 
 ## Movie
+This component show one movie in list
+
 ```
 import React from "react";
 import { Link } from "react-router-dom";
@@ -64,22 +67,6 @@ const Movie = ({ movie }) => {
 
 export default Movie;
 ```
-## Query
-```
-import React from "react";
-import { useQuery } from "@apollo/client";
 
-const Query = ({ children, query, slug }) => {
-  const { data, loading, error } = useQuery(query, {
-    variables: { slug: slug }
-  });
-
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error: {JSON.stringify(error)}</p>;
-  return children({ data });
-};
-
-export default Query;
-```
 
 [Pages](https://vkoutsky.github.io/vk/pages)

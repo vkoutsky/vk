@@ -51,6 +51,6 @@ To check if GraphQL API is running on localhost
 http://localhost:1337/graphql
 ```
 
-[Components](https://vkoutsky.github.io/vk/components)
+[Queries](https://vkoutsky.github.io/vk/queries)
 
 
