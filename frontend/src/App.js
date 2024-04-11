@@ -30,10 +30,6 @@ function App() {
               <Route exact path="/" element={<Movies />}/>
               <Route exact path="/movie/:slug" element={<MovieDetails />}/>
               <Route exact path="/category/:slug" element={<Category />}/>
-              <Route exact path="/documentation" element={<Documentation />}/>
-              <Route exact path="/first-steps" element={<FirstSteps />}/>
-              <Route exact path="/components" element={<ComponentsPage />}/>
-              <Route exact path="/pages" element={<Pages />}/>
           </Routes>
           <Footer />
         </div>
