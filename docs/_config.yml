@@ -22,7 +22,7 @@ baseurl: "/vk" # the subpath of your site, e.g. /blog
 url: "https://vkoutsky.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  vkoutsky
 header_pages:
-  - instalation.md
+  - installation.md
   - components.md
   - pages.md
 # Build settings
