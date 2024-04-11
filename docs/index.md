@@ -1,51 +1,34 @@
 # VK
 
-This is a sample project to demonstrate the interworking of GraphQL and Headless CMS
+This is a sample project to demonstrate the interworking of GraphQL and Headless CMS. 
 
-## First Steps
-### Installation Strapi
+## Motivation
 
-To install Strapi to your project run command
+The motivation for this work is the growing need for effective content management and presentation in different contexts, which arises as a result of the dynamic digital market environment and increasing user expectations. With the emergence of new types of devices, platforms and channels for interacting with content, it is becoming increasingly difficult to maintain a consistent and quality user experience across all channels used.
 
-```
-npx create-strapi-app@latest my-project --quickstart
-```
+Headless architecture, which allows content to be separated from its presentation, offers a solution to these challenges. This tool helps developers and content creators work flexibly with data without being tied to a specific type of presentation. As a result, the same content can be easily and efficiently used across different channels and devices, such as websites, mobile apps, digital billboards and more.
 
-Strapi is completely written in Typescript, therefore all types are already bundled within the package
+In this context, GraphQL technology plays a key role. Its ability to provide a flexible and powerful interface for querying data brings an additional level of dynamism and efficiency to the Headless architecture. GraphQL allows clients to specify exactly the data they require, while also retrieving it in a structured form. This makes the most efficient use of available bandwidth, as no redundant data is transferred when using this interface.
 
-### Installation GraphQL API
+The biggest advantage of the combination of Headless architecture and GraphQL technology is the greater flexibility, agile development and high efficiency of content handling. These factors are key to ensuring competitiveness and maintaining quality of service in today's dynamic digital environment. Therefore, their study and the study of their application is very relevant and important.
 
-To install GraphQL API to your project run command
+## Why to use GraphQL and Headless CMS
 
-```
-npm run strapi install graphql 
-```
-To install Apollo Client to your project run command
+### GraphQL advantages
+* Flexibility in querying
+* Unambiguous data schema
+* Backward compatibility
+* Simple integration of multiple data sources
+* Support for real-time updates
 
-```
-npm install @apollo/client graphql
-```
-### Installation React.js App
+### Headless CMS advantages
 
-To install Strapi to your project run command
+* Flexibility in content presentation
+* Support for multiplatform distribution
+* Better performance and scalability
+* More control over the frontend
+* Easy integration with external services
+* Faster development and iteration
 
-```
-npx create—react—app project-name
-```
 
-### Run local example
-To start your React.js application.
-```
-npm start
-```
-localhost will run on port :3000
-
-To start your Strapi application with autoReload enabled
-```
-npm run develop
-```
-localhost will run on port :1337
-To check if GraphQL API is running on localhost
-```
-http://localhost:1337/graphql
-```
+[Instalation](https://vkoutsky.github.io/vk/instalation)
