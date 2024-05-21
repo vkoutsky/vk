@@ -15,7 +15,7 @@ import Pages from './pages/Pages';
 
 const client = new ApolloClient(
   {
-    uri: 'http://localhost:1337/graphql',
+    uri: 'https://vk-backend.rvhgsj.easypanel.host/graphql',
     cache: new InMemoryCache()
   }) 
 
