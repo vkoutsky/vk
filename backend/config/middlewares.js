@@ -5,7 +5,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:3000', 'https://vk-front2.rvhgsj.easypanel.host/', 'https://vk-backend.rvhgsj.easypanel.host'], // Add your frontend domain here
+      origin: ['*'], // Add your frontend domain here
       headers: '*',
       credentials: true,
     },
