@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Movie = ({ movie }) => {
   return (
-    <Link to={`/film/${movie.attributes.slug}`} className="movies__item">
+    <Link to={`/movie/${movie.attributes.slug}`} className="movies__item">
           <div className="movies__item-content">
           <div className="movies__thumbnail">
             {movie.attributes.thumbnail ?
